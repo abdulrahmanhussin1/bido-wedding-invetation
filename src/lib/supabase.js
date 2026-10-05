@@ -20,7 +20,7 @@ export const supabase = isSupabaseConfigured()
   : null;
 
 // LocalStorage fallback for seamless preview when Supabase is not configured
-const LOCAL_WISHES_KEY = 'beso_wedding_wishes_local';
+const LOCAL_WISHES_KEY = 'bido_wedding_wishes_local';
 
 export const getLocalWishes = () => {
   try {
