@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #faf8f3;
+    color: #332a29;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* 3D Envelope Styles */
+.perspective-1200 {
+  perspective: 1200px;
+}
+
+.envelope-box {
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flap-top {
+  transform-origin: top center;
+  transition: transform 1s cubic-bezier(0.45, 0, 0.15, 1);
+  z-index: 30;
+  backface-visibility: visible;
+}
+
+.flap-open {
+  transform: rotateX(180deg);
+  z-index: 10;
+}
+
+.letter-card {
+  transition: transform 1.1s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.8s ease;
+  z-index: 15;
+}
+
+.letter-lift {
+  transform: translateY(-135px) scale(1.03);
+}
+
+/* Crack Overlay Effect on Wax Seal */
+.wax-cracking {
+  animation: sealPulseBreak 0.7s forwards ease-in-out;
+}
+
+@keyframes sealPulseBreak {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 4px 10px rgba(74, 24, 39, 0.3));
+  }
+  40% {
+    transform: scale(0.93);
+    filter: drop-shadow(0 2px 4px rgba(74, 24, 39, 0.5));
+  }
+  100% {
+    transform: scale(1.08);
+    opacity: 0;
+    filter: blur(4px);
+  }
+}
+
+/* Organic Gold Wax Seal Glow */
+.seal-shadow {
+  box-shadow: 0 10px 25px -4px rgba(110, 38, 56, 0.28),
+              0 4px 12px 0 rgba(200, 173, 120, 0.4);
+}
+
+/* Luxury Paper Deckle and Filigree Border */
+.paper-deckle {
+  background-color: #fffdfc;
+  box-shadow: 0 4px 30px -2px rgba(110, 38, 56, 0.07),
+              0 1px 3px 0 rgba(0, 0, 0, 0.05),
+              inset 0 0 0 1px rgba(200, 173, 120, 0.35);
+}
+
+.gold-filigree-border {
+  position: relative;
+  border: 1px solid rgba(200, 173, 120, 0.45);
+}
+
+.gold-filigree-border::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px dashed rgba(200, 173, 120, 0.3);
+  pointer-events: none;
+}
+
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.ornament-divider::before,
+.ornament-divider::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(to right, transparent, rgba(200, 173, 120, 0.6), transparent);
+}
+
+/* Vinyl Spin & Gentle Float Animations */
+@keyframes discSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: discSpin 10s linear infinite;
+}
+
+.paused-animation {
+  animation-play-state: paused;
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.gentle-bounce {
+  animation: gentleFloat 3.5s ease-in-out infinite;
+}
+
+/* Luxury Custom Scrollbar */
+.luxury-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.luxury-scrollbar::-webkit-scrollbar-track {
+  background: rgba(200, 173, 120, 0.1);
+  border-radius: 9999px;
+}
+.luxury-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(200, 173, 120, 0.45);
+  border-radius: 9999px;
+}
+.luxury-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(166, 138, 86, 0.7);
+}
+.luxury-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 173, 120, 0.45) rgba(200, 173, 120, 0.1);
+}
+
