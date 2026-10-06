@@ -9,7 +9,7 @@ export const translations = {
       monogram: 'ع & ن',
       invitationSubtitle: 'دعوة زفاف خاصة',
       names: 'عبدالله و نورهان',
-      date: 'الثلاثاء، ٢٢ ديسمبر ٢٠٢٦ • الساعة ٨:٠٠ مساءً',
+      date: 'الثلاثاء، ٢٢ ديسمبر ٢٠٢٦ • الساعة ٥:٠٠ مساءً',
       venue: 'منتجع عين الحياة - قاعة سي جاردن',
     },
     audio: {
@@ -22,9 +22,9 @@ export const translations = {
       groom: 'عَبْدُالله',
       bride: 'نُورهَان',
       invitationTag: 'فرحتنا مش هتكمل إلا بوجودكم ولمّتنا الحلوة في ليلة العمر',
-      dateRibbon: 'الثلاثاء، ٢٢ ديسمبر ٢٠٢٦ • الساعة ٨:٠٠ مساءً',
+      dateRibbon: 'الثلاثاء، ٢٢ ديسمبر ٢٠٢٦ • الساعة ٥:٠٠ مساءً',
       locationRibbon: 'منتجع عين الحياة - قاعة سي جاردن',
-      portraitTag: 'ABDULLAH & NOURHAN — TOGETHER FOREVER',
+      portraitTag: 'ABDULLAH & Norhan — TOGETHER FOREVER',
     },
     letter: {
       title: 'فرحتنا متكملش غير بيكم',
@@ -75,13 +75,13 @@ export const translations = {
     registry: {
       title: 'أغلى وأجمل هدية',
       quote: '«وجودكم جنبنا ومشاركتكم فرحتنا ودعواتكم الصادقة من القلب هي أغلى وأجمل هدية بتنوّر ليلتنا وتكمّل سعادتنا»',
-      accountHolder: 'الحساب باسم: عبدالله & نورهان (Abdullah & Nourhan)',
+      accountHolder: 'الحساب باسم: عبدالله & نورهان (Abdullah & Norhan)',
     },
     footer: {
       monogram: 'عبدالله & نورهان',
       tagline: 'مستنيينكم تنورونا ونفرح سوا في ليلة العمر',
       dateVenue: 'الثلاثاء، ٢٢ ديسمبر ٢٠٢٦ • منتجع عين الحياة - قاعة سي جاردن - القاهرة',
-      copyright: '© 2026 Abdullah & Nourhan Wedding. All rights reserved.',
+      copyright: '© 2026 Abdullah & Norhan Wedding. All rights reserved.',
     }
   },
   en: {
@@ -93,7 +93,7 @@ export const translations = {
       skipBtn: 'Skip to Invite →',
       monogram: 'A & N',
       invitationSubtitle: 'Royal Wedding Invitation',
-      names: 'Abdullah & Nourhan',
+      names: 'Abdullah & Norhan',
       date: 'Tuesday, December 22, 2026 • 8:00 PM',
       venue: 'Life Eye Resort - Sea Garden Hall',
     },
@@ -105,11 +105,11 @@ export const translations = {
       verse: '“And of His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy.”',
       monogram: 'A & N',
       groom: 'Abdullah',
-      bride: 'Nourhan',
+      bride: 'Norhan',
       invitationTag: 'Our joy will only be complete with your warm presence on our unforgettable night',
       dateRibbon: 'Tuesday, December 22, 2026 • 8:00 PM',
       locationRibbon: 'Life Eye Resort - Sea Garden Hall',
-      portraitTag: 'ABDULLAH & NOURHAN — TOGETHER FOREVER',
+      portraitTag: 'ABDULLAH & Norhan — TOGETHER FOREVER',
     },
     letter: {
       title: 'Our Joy is Complete with You',
@@ -118,7 +118,7 @@ export const translations = {
     },
     countdown: {
       title: 'Counting Down to Our Dream Day',
-      subtitle: 'We eagerly await welcoming you on Tuesday, December 22, 2026 at 8:00 PM',
+      subtitle: 'We eagerly await welcoming you on Tuesday, December 22, 2026 at 5:00 PM',
       days: 'Days',
       hours: 'Hours',
       minutes: 'Minutes',
@@ -143,7 +143,7 @@ export const translations = {
       title: 'Guestbook & Loving Blessings',
       subtitle: 'Your kind words and heartfelt prayers will remain an everlasting treasure in our hearts',
       namePlaceholder: 'Your Esteemed Name / Family',
-      msgPlaceholder: 'Write your heartfelt congratulations for Abdullah & Nourhan...',
+      msgPlaceholder: 'Write your heartfelt congratulations for Abdullah & Norhan...',
       postBtn: 'Send Loving Blessings ♥',
       postingBtn: 'Sending...',
       successMsg: 'Your heartfelt blessing has been received with boundless love and joy.. Thank you!',
@@ -160,13 +160,13 @@ export const translations = {
     registry: {
       title: 'The Most Precious Gift',
       quote: '“Your esteemed presence, warmth, and sincere prayers are the greatest gift crowning our joy on this sacred night.”',
-      accountHolder: 'Abdullah & Nourhan (Wedding Account)',
+      accountHolder: 'Abdullah & Norhan (Wedding Account)',
     },
     footer: {
-      monogram: 'Abdullah & Nourhan',
+      monogram: 'Abdullah & Norhan',
       tagline: 'We eagerly await celebrating this magical night with you',
       dateVenue: 'Tuesday, December 22, 2026 • Life Eye Resort - Sea Garden Hall - Cairo',
-      copyright: '© 2026 Abdullah & Nourhan Wedding. All rights reserved.',
+      copyright: '© 2026 Abdullah & Norhan Wedding. All rights reserved.',
     }
   }
 };

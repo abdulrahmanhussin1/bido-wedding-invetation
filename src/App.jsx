@@ -93,7 +93,7 @@ export default function App() {
 
   // Live Countdown logic (December 22, 2026, 20:00 Cairo time)
   useEffect(() => {
-    const targetDate = new Date('2026-12-22T20:00:00+02:00').getTime();
+    const targetDate = new Date('2026-12-22T17:00:00+02:00').getTime();
 
     const calculateTime = () => {
       const now = new Date().getTime();
@@ -553,14 +553,14 @@ export default function App() {
 
           {/* Hero Portrait Card (main.jpeg) */}
           <div
-            onClick={() => setActiveLightbox({ src: '/img/main.jpeg', caption: lang === 'ar' ? 'عبدالله و نورهان — ميثاق المحبة ونقاء البدايات' : 'Abdullah & Nourhan — The Covenant of Love' })}
+            onClick={() => setActiveLightbox({ src: '/img/main.jpeg', caption: lang === 'ar' ? 'عبدالله و نورهان — ميثاق المحبة ونقاء البدايات' : 'Abdullah & Norhan — The Covenant of Love' })}
             className="mt-10 max-w-sm sm:max-w-md mx-auto relative group cursor-pointer"
           >
             <div className="absolute -inset-2 bg-gradient-to-tr from-gold/30 via-dusty-pink/20 to-burgundy/20 rounded-2xl blur-md"></div>
             <div className="relative paper-deckle rounded-2xl p-2.5 sm:p-3.5 border border-gold/40 overflow-hidden shadow-xl">
               <img
                 src="/img/main.jpeg"
-                alt="Abdullah & Nourhan Portrait"
+                alt="Abdullah & Norhan Portrait"
                 className="w-full h-[400px] sm:h-[480px] object-cover object-top rounded-xl"
               />
               <div className="p-3 text-center">
