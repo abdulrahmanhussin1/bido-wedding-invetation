@@ -230,8 +230,7 @@ export default function App() {
           const { data, error } = await supabase
             .from('bido_wedding_wishes')
             .select('*')
-            .order('created_at', { ascending: false })
-            .limit(50);
+            .order('created_at', { ascending: false });
 
           if (error) {
             console.error('Supabase fetch failed:', {
